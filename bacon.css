@@ -1,0 +1,40 @@
+
+body{
+    background-color: darkgray;
+	text-align:center;
+	 font-family: Tahoma;
+}
+
+
+.main{
+    margin: 0 auto;
+	padding-left:10px;
+	padding-right:10px;
+    padding: 5px;
+    width: 90%;
+    background-color: white;
+}
+
+form{
+	margin-bottom:50px;
+}
+
+table{
+	border: 1px solid black;
+	table-layout:fixed;
+	width:500px;
+	text-align:center;
+	margin: 0 auto;
+}
+
+thead{
+    font-weight: bold;
+}
+tr:nth-child(even) {
+  background-color: lightgreen;
+}
+
+
+tr:nth-child(odd) {
+  background-color: white;
+}
